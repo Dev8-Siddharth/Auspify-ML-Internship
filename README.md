@@ -29,19 +29,15 @@ This repository contains 5 comprehensive, end-to-end Machine Learning projects. 
 *   **Core Concept:** Predicting Audience Ratings (TV-MA, PG-13, R, etc.) using a Voting Ensemble (Random Forest, Gradient Boosting, Logistic Regression).
 *   **Highlight:** Handled highly imbalanced classes and utilized `GridSearchCV` for extensive hyperparameter tuning. Achieved a peak accuracy of **51.37%** (4.6x higher than random guessing) while documenting the inherent "Information Ceiling" of the dataset.
 
-### [Task 4: Netflix Content Segmentation](./Task_4_Content_Segmentation)
+### [Task 4: Netflix Content Segmentation](https://github.com/Dev8-Siddharth/Auspify-ML-Internship/tree/main/Task_4_Netflix_Content_Segmentation)
 *   **Type:** Unsupervised Learning (Clustering)
 *   **Core Concept:** Grouping titles using K-Means Clustering based on Release Year and Duration.
 *   **Highlight:** Applied `StandardScaler` to normalize data and used the **Elbow Method** to mathematically prove that content naturally segments into 3 distinct groups: *Modern TV Shows, Modern Movies, and Classic Movies.*
 
-### [Task 5: Netflix Trend Forecasting Model](./Task_5_Trend_Forecasting)
+### [Task 5: Netflix Trend Forecasting Model](https://github.com/Dev8-Siddharth/Auspify-ML-Internship/tree/main/Task_5_Netflix_Trend_Forecasting)
 *   **Type:** Time Series Forecasting
 *   **Core Concept:** Predicting future content release trends using the ARIMA model.
 *   **Highlight:** Identified and removed a **Data Artifact** (the incomplete 2021 dataset) to prevent false forecasting. Discovered the strategic business insight that Netflix is pivoting from Movies toward TV Shows.
-
-*(Task 6: End-to-End Content Success Analytics Engine - Currently in Development)*
-
----
 
 ## 🧠 Key Engineering Takeaways
 Throughout this internship, I have moved beyond basic scripting to embrace Master-level Engineering principles:
